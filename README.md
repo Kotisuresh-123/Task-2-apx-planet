@@ -2,15 +2,16 @@
 
 ## LIVE DEMO 
 
-Link: 
+Link: https://kotisuresh-123.github.io/Task-2-apx-planet/
 
 ## Git repository
 
-Link:
+Link: https://github.com/Kotisuresh-123/Task-2-apx-planet
 
 ## Demo Video
 
-LinkedIn Video Link: [Paste Your LinkedIn Post URL Here]
+LinkedIn Video Link:
+ https://www.linkedin.com/posts/koti-suresh-kommu-a26403339_webdevelopment-frontenddevelopment-html-ugcPost-7472200973176729600-nHCT/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFT0mf4BPmeCXwiynJbRyRMqIQtaOO4pBR4
 
 ## Project Overview
 
