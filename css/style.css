@@ -1,0 +1,74 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Poppins',sans-serif;
+  
+}
+
+body{
+  overflow-x:hidden;
+}
+
+.hero{
+  min-height:90vh;
+  background:linear-gradient(to right,#0f2027,#203a43,#2c5364);
+  color:white;
+  padding:50px 0;
+}
+
+.hero-img{
+  animation:float 3s ease-in-out infinite;
+}
+
+@keyframes float{
+  0%{
+    transform:translateY(0px);
+  }
+
+  50%{
+    transform:translateY(-15px);
+  }
+
+  100%{
+    transform:translateY(0px);
+  }
+}
+
+.card{
+  border:none;
+  border-radius:15px;
+  transition:0.3s;
+}
+
+.card:hover{
+  transform:translateY(-10px);
+}
+
+.btn{
+  border-radius:10px;
+  border: none;
+}
+
+input{
+  border-radius:10px !important;
+}
+
+footer{
+  margin-top:50px;
+}
+.anchor:hover{
+    padding: 8px;
+    border-radius: 10px;
+    background-color: white; 
+    color: black; 
+    
+}
+.anchor{
+    padding: 8px;
+    border-radius: 10px;
+}
+.eye
+{
+  display: flex;
+}

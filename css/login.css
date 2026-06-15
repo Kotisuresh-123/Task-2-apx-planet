@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  height: 100vh;
+  font-family: "Segoe UI", sans-serif;
+
+  /* Dark futuristic background */
+ background-image: url('../assets/nathan-anderson-iYO-EGosrCo-unsplash.jpg');
+ background-repeat: no-repeat;
+ background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Glass Card */
+.card {
+  width: 100%;
+  max-width: 420px;
+
+  background: rgba(255, 255, 255, 0.08); /* more transparent */
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+
+  box-shadow: 0 0 30px rgba(0, 255, 255, 0.08);
+  padding: 30px;
+  transition: 0.3s ease;
+  color: white;
+}
+
+.card:hover {
+  box-shadow: 0 0 40px rgba(0, 255, 255, 0.15);
+  transform: translateY(-3px);
+}
+
+/* Title */
+h2 {
+  color: #ffffff;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+/* Labels */
+label {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/* Inputs */
+.form-control {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #fff;
+  border-radius: 12px;
+  padding: 10px 12px;
+  transition: 0.3s ease;
+}
+
+.form-control:focus {
+  background: rgba(255, 255, 255, 0.12);
+  border-color: #00f5ff;
+  box-shadow: 0 0 10px rgba(0, 245, 255, 0.4);
+  color: #fff;
+}
+
+/* LOGIN BUTTON - NEON HIGHLIGHT */
+
+
+
+/* INPUT GROUP (PASSWORD ICON AREA) */
+.input-group-text,
+.input-group .btn {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #00f5ff;
+  border-radius: 0 12px 12px 0;
+  transition: 0.3s ease;
+}
+
+.input-group-text:hover,
+.input-group .btn:hover {
+  background: rgba(0, 245, 255, 0.15);
+  color: #00f5ff;
+  box-shadow: 0 0 10px rgba(0, 245, 255, 0.3);
+}
+
+/* Eye icon glow */
+.fa-eye,
+.fa-eye-slash {
+  color: #00f5ff;
+  text-shadow: 0 0 8px rgba(0, 245, 255, 0.5);
+}
+
+/* Links */
+a {
+  color: #00f5ff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover {
+  text-shadow: 0 0 10px rgba(0, 245, 255, 0.5);
+}
